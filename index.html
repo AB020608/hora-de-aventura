@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Itim&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>HORA DE AVENTURA</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="oi.png" alt="começar">
+            <p>Nossa aventura começa com um menino chamado Fin, um bebê, acordando em um mundo estranho cheio de criaturas incomuns e diversos monstros bizarros, um lugar chamado TERRA de OOO. Enquanto chora de medo na floresta, Fin é encontrado por dois cachorros mágicos falantes que adotam o menino como seu filho, e criam ele junto ao seu filho mais novo Jake (que futuramente seria seu melhor amigo). 12 anos se passam, e Fin agora tem um grande sonho para conquistar, se tornar o herói da TERRA de OOO. Mas para isso ele vai precisar do manual dos heróis o Enquirídio! Embarque nessa aventura e ajude Fin em sua grande jornada para se tornar um herói.
+            </p>
+            <button class="btn-proximo" data-proximo="1">AVENTURA 1</button>
+            <button class="btn-proximo" data-proximo="2">AVENTURA 2</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Sua jornada começa no Reino Doce, vc e seu amigo Jake decidem perguntar para a princesa Jujuba de ela tem alguma pista de onde começar sua aventura.</p>
+            <button class="btn-proximo" data-proximo="3"> PERGUNTAR SOBRE A PISTA</button>
+            <button class="btn-proximo" data-proximo="4"> VOLTAR PARA CASA</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p> Sua aventura começa em casa, onde vc e seu amigo Jake acham um mapa, contendo a localização do Enquirídio.</p>
+            <button class="btn-proximo" data-proximo="5"> SEGUIR O MAPA</button>
+            <button class="btn-proximo" data-proximo="6">DESISTIR</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>A princesa está feliz em ver vcs, e diz que a única pista que possui é que o livro se encontra na Caverna da Aventura na floresta sombria.</p>
+            <button class="btn-proximo" data-proximo="7"> SEGUIR PARA A CAVERNA</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="desistindo.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Vc e Jake decidem que a aventura não iria valer apena e decidem voltar para casa.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você e Jake decidem seguir o mapa até uma caverna na floresta sombria.</p>
+            <button class="btn-proximo" data-proximo="7">IR PARA A CAVERNA</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="desistindo.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você e Jake decidem que ainda não é a hora certa de se tornar um herói e desistem da aventura.</p>
+            <button class="btn-proximo" data-proximo="8">2°OPÇÃO</button>
+        </div>
+
+        <div class="passo" id="passo-7"> 
+            <p>Na caverna vcs encontram um velho mago que diz querer ajuda-los em sua aventura, e se propõe a guia-los pela caverna dizendo ser um lugar muito perigoso.</p>
+            <button class="btn-proximo" data-proximo="9"> SEGUIR O MAGO</button>
+            <button class="btn-proximo" data-proximo="10"> SEGUIR SEM O MAGO</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Na caverna vcs encontram um velho mago que diz querer ajuda-los em sua aventura, e se propõe a guia-los pela caverna dizendo ser um lugar muito perigoso!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Vcs seguem o mago caverna a dentro e ele os ajuda com os desafios dentro da caverna, até deixa-los no último desafio da caverna.</p>
+            <button class="btn-proximo" data-proximo="11">SEGUIR DESAFIO</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="perdeu.webp" alt="tente outra vez">
+            <p>Vcs decidem ignorar o velho mago e entram na caverna sozinhos, lá vcs encontram diversos desafios e não conseguem concluir a aventura.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar</button>
+</div>
+
+        <div class="passo" id="passo-11">
+            <img src="vitoria.jpg" alt="parabens vc encontrou o Enquirídio">
+            <p>Vcs entram na próxima sala e se deparam com um gigante de pedra, enfrentam o gigante com braveza e concluem o desafio. Parabéns.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Vcs seguem o mago caverna a dentro e ele os ajuda com os desafios dentro da caverna, até deixa-los no último desafio da caverna.</p>
+            <button class="btn-proximo" data-proximo="11">SEGUIR DESAFIO</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
